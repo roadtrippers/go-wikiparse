@@ -123,6 +123,110 @@ His first 9 bouts, including a five-round knockout win in a rematch with Cruz, w
 
 By 1929, Sardiñas was becoming a name to be reckoned with in boxing. He had 23 fights that year, and continued his undefeated run by winning each of them. He also began to box more competent opponents. Among the boxers he defeated were former world champion [[Fidel LaBarba]] (beaten by a decision in ten), future world champion [[Al Singer]] (also by a decision in ten), and fringe contenders [[Bushy Graham]], [[Vic Burrone]] and [[Gregorio Vidal]], all of whom, except for Graham, were beaten by decision. Graham was disqualified in the seventh round.`,
 	},
+	testInfoText{
+		`{{Primary sources|date=February 2014}}
+{{Infobox zoo
+|zoo_name=Monterey Bay Aquarium
+|image=MontereyBayAquariumBackview.jpg
+|image_caption=Back view of the aquarium (on the [[Pacific Ocean]])
+|logo=Monterey Bay Aquarium Logo.svg
+|logo_width=90px
+|logo_caption=The aquarium's logo depicts [[Macrocystis pyrifera|giant kelp]].
+|date_opened=October 20, 1984&lt;ref name=FAQ/&gt;
+|location=[[Monterey, California]], US
+|coordinates={{coord|36.618253|-121.901481|region:US_type:landmark|display=it}}
+|area=
+|floorspace=
+|num_animals=35,000&lt;ref name=&quot;2005_press_kit&quot;/&gt;
+|num_species=623 (plants and animals in 2005)&lt;ref name=&quot;2005_press_kit&quot;/&gt;
+|largest_tank_vol={{Convert|1200000|gal|sing=on}}
+|total_tank_vol=
+|annual_visitors=2.08 Million&lt;ref&gt;{{cite news |last=Abel |first=David |url=https://www.bostonglobe.com/lifestyle/2016/08/02/aquariumside/aeNq1fhIiUd3i2vZlQ6RZJ/story.html |title=Top aquariums in the US, in terms of visitors |work=[[Boston Globe]] |date=2016-08-02 |accessdate=2016-12-02 }}&lt;/ref&gt;
+|members=[[Association of Zoos and Aquariums|AZA]]&lt;ref name=&quot;aza_list&quot;/&gt;
+|website={{URL|http://www.montereybayaquarium.org}}
+}}
+
+The '''Monterey Bay Aquarium''' ('''MBA''') is a non-profit [[public aquarium]] located in [[Monterey, California]], United States.  The aquarium was founded in 1984 and is located on the site of a former sardine cannery on [[Cannery Row]]. It has an annual attendance of around two million visitors. It holds thousands of plants and animals, representing more than 600 species on display. The aquarium benefits from a high circulation of fresh ocean water which is obtained through pipes which pump it in continuously from [[Monterey Bay]].
+
+The centerpiece of the ''Ocean's Edge Wing'', is a {{convert|28|ft|m|adj=mid|-high}}, {{Convert|333000|gal|sing=on}} exhibit for viewing California coastal marine life. In this exhibit, the aquarium was the first in the world to grow live California [[Giant Kelp]]. Visitors are able to inspect the creatures of the kelp forest at several levels in the building. The largest exhibit in the aquarium is a {{Convert|1200000|gal|adj=on|sp=us}} the Open Sea exhibit (formerly the Outer Bay), which features one of the world's largest single-paned windows. It is one of the few aquariums to successfully care for  the [[ocean sunfish]] in captivity.
+
+Sea life on exhibit includes [[stingray]]s, [[jellyfish]], [[sea otters]], sea horses, and numerous other native marine species, which can be viewed above and below the waterline. The Monterey Bay Aquarium is one of very few in the world to exhibit both [[Pacific bluefin tuna|bluefin]] and [[yellowfin tuna]]. For displaying jellyfish, it uses a [[Aquarium#Styles|Kreisel tank]], which creates a circular flow to support and suspend the jellies. The aquarium does not house mammals other than sea otters that were rescued through its [http://www.montereybayaquarium.org/conservation-and-science/our-priorities/thriving-ocean-wildlife/southern-sea-otters Sea Otter Program].
+
+==History==
+There had been a number of attempts to build an aquarium in the Monterey area dating back almost 100 years. In 1914 an aquarium was proposed to the city council by Frank Booth with a cost of $10,000. A bond issue was sponsored in an attempt to place an aquarium in the basement of the Pacific Grove Museum by [[Knut Hovden]] in 1925 and in 1944 an aquarium is suggested for Point Lobos State Reserve.&lt;ref name=&quot;Explore our History&quot;&gt;{{cite web | url=http://www.montereybayaquarium.org/about/our-history | title=Early Years | publisher=Monterey Bay Aquarium Foundation | accessdate=6 July 2013}}&lt;/ref&gt;
+
+The aquarium occupies land at the end of [[Cannery Row]] (once Ocean View Avenue) in Monterey, at the site of the Hovden Cannery, a sardine cannery that helped to define the character of Monterey from the time it was built in 1916 to the day when it was the last cannery on the Row to close in 1973, after sardine fishing collapsed. This building was dismantled in 1980, but beginning in 2002 the Monterey Bay Aquarium has blown the original Hovden Cannery steam whistle at noon each day to commemorate it.&lt;ref name=&quot;timeline5&quot;&gt;
+{{Cite web
+|url=http://www.montereybayaquarium.org/about/our-history
+|title=Explore Our History: 1980–1983
+|work=montereybayaquarium.org
+|publisher=Monterey Bay Aquarium
+|accessdate=8 April 2012
+}}&lt;/ref&gt;
+[[File:Pacific Biological Laboratories.JPG|thumb|right|The Pacific Biological Laboratories of [[Ed Ricketts]], on [[Cannery Row]], [[Monterey, California]].]]
+The aquarium's original building was designed by the architectural firm [[EHDD|Esherick Homsey Dodge &amp; Davis]] and opened on 20 October 1984. The aquarium's mission is &quot;to inspire conservation of the oceans.&quot;  The aquarium's initial financial backing was provided by [[David Packard]], co-founder of [[Hewlett-Packard]].  Packard, an avid [[blacksmith]], personally designed and created several exhibit elements for the aquarium at his forge in [[Big Sur]], including the wave machines in the Kelp Forest and aviary. His daughter, marine biologist Julie Packard, is currently Executive Director of the aquarium.
+
+The aquarium was built in honor of the work of [[Edward Ricketts]] (1897–1948), a marine biologist who specialized in describing communities of organisms (which would also be the focus of aquarium tanks), and whose old laboratory ([[Pacific Biological Laboratories]]) (PCL)  and home resides next to the present MBA site.&lt;ref name=&quot;timeline2&quot;&gt;
+{{Cite web
+|url=http://www.montereybayaquarium.org/about/our-history
+|title=Explore Our History: 1977
+|work=montereybayaquarium.org
+|publisher=Monterey Bay Aquarium
+|accessdate=8 April 2012
+}}&lt;/ref&gt; Ricketts, whose life was an inspiration for the eventual building of the aquarium, is famous as the &quot;Doc&quot; of [[John Steinbeck]]'s ''[[Cannery Row (novel)|Cannery Row]]'' and ''[[Sweet Thursday]]''. The aquarium itself contains a display of Ricketts' items, including some of his personal library. The shop also sells a variety of Steinbeck books.`,
+		"zoo",
+		map[string]string{
+			"zoo_name" : "Monterey Bay Aquarium",
+			"image" : "MontereyBayAquariumBackview.jpg",
+			"image_caption" : "Back view of the aquarium (on the [[Pacific Ocean]])",
+			"logo" : "Monterey Bay Aquarium Logo.svg",
+			"logo_width" : "90px",
+			"logo_caption" : "The aquarium's logo depicts [[Macrocystis pyrifera|giant kelp]].",
+			"date_opened" : "October 20, 1984&lt;ref name=FAQ/&gt;",
+			"location" : "[[Monterey, California]], US",
+			"coordinates" : "{{coord|36.618253|-121.901481|region:US_type:landmark|display=it}}",
+			"area" : "",
+			"floorspace" : "",
+			"num_animals" : "35,000&lt;ref name=&quot;2005_press_kit&quot;/&gt;",
+			"num_species" : "623 (plants and animals in 2005)&lt;ref name=&quot;2005_press_kit&quot;/&gt;",
+			"largest_tank_vol" : "{{Convert|1200000|gal|sing=on}}",
+			"total_tank_vol" : "",
+			"annual_visitors" : "2.08 Million&lt;ref&gt;{{cite news |last=Abel |first=David |url=https://www.bostonglobe.com/lifestyle/2016/08/02/aquariumside/aeNq1fhIiUd3i2vZlQ6RZJ/story.html |title=Top aquariums in the US, in terms of visitors |work=[[Boston Globe]] |date=2016-08-02 |accessdate=2016-12-02 }}&lt;/ref&gt;",
+			"members" : "[[Association of Zoos and Aquariums|AZA]]&lt;ref name=&quot;aza_list&quot;/&gt;",
+			"website" : "{{URL|http://www.montereybayaquarium.org}}",
+		},
+		`{{Primary sources|date=February 2014}}
+
+
+The '''Monterey Bay Aquarium''' ('''MBA''') is a non-profit [[public aquarium]] located in [[Monterey, California]], United States.  The aquarium was founded in 1984 and is located on the site of a former sardine cannery on [[Cannery Row]]. It has an annual attendance of around two million visitors. It holds thousands of plants and animals, representing more than 600 species on display. The aquarium benefits from a high circulation of fresh ocean water which is obtained through pipes which pump it in continuously from [[Monterey Bay]].
+
+The centerpiece of the ''Ocean's Edge Wing'', is a {{convert|28|ft|m|adj=mid|-high}}, {{Convert|333000|gal|sing=on}} exhibit for viewing California coastal marine life. In this exhibit, the aquarium was the first in the world to grow live California [[Giant Kelp]]. Visitors are able to inspect the creatures of the kelp forest at several levels in the building. The largest exhibit in the aquarium is a {{Convert|1200000|gal|adj=on|sp=us}} the Open Sea exhibit (formerly the Outer Bay), which features one of the world's largest single-paned windows. It is one of the few aquariums to successfully care for  the [[ocean sunfish]] in captivity.
+
+Sea life on exhibit includes [[stingray]]s, [[jellyfish]], [[sea otters]], sea horses, and numerous other native marine species, which can be viewed above and below the waterline. The Monterey Bay Aquarium is one of very few in the world to exhibit both [[Pacific bluefin tuna|bluefin]] and [[yellowfin tuna]]. For displaying jellyfish, it uses a [[Aquarium#Styles|Kreisel tank]], which creates a circular flow to support and suspend the jellies. The aquarium does not house mammals other than sea otters that were rescued through its [http://www.montereybayaquarium.org/conservation-and-science/our-priorities/thriving-ocean-wildlife/southern-sea-otters Sea Otter Program].
+
+==History==
+There had been a number of attempts to build an aquarium in the Monterey area dating back almost 100 years. In 1914 an aquarium was proposed to the city council by Frank Booth with a cost of $10,000. A bond issue was sponsored in an attempt to place an aquarium in the basement of the Pacific Grove Museum by [[Knut Hovden]] in 1925 and in 1944 an aquarium is suggested for Point Lobos State Reserve.&lt;ref name=&quot;Explore our History&quot;&gt;{{cite web | url=http://www.montereybayaquarium.org/about/our-history | title=Early Years | publisher=Monterey Bay Aquarium Foundation | accessdate=6 July 2013}}&lt;/ref&gt;
+
+The aquarium occupies land at the end of [[Cannery Row]] (once Ocean View Avenue) in Monterey, at the site of the Hovden Cannery, a sardine cannery that helped to define the character of Monterey from the time it was built in 1916 to the day when it was the last cannery on the Row to close in 1973, after sardine fishing collapsed. This building was dismantled in 1980, but beginning in 2002 the Monterey Bay Aquarium has blown the original Hovden Cannery steam whistle at noon each day to commemorate it.&lt;ref name=&quot;timeline5&quot;&gt;
+{{Cite web
+|url=http://www.montereybayaquarium.org/about/our-history
+|title=Explore Our History: 1980–1983
+|work=montereybayaquarium.org
+|publisher=Monterey Bay Aquarium
+|accessdate=8 April 2012
+}}&lt;/ref&gt;
+[[File:Pacific Biological Laboratories.JPG|thumb|right|The Pacific Biological Laboratories of [[Ed Ricketts]], on [[Cannery Row]], [[Monterey, California]].]]
+The aquarium's original building was designed by the architectural firm [[EHDD|Esherick Homsey Dodge &amp; Davis]] and opened on 20 October 1984. The aquarium's mission is &quot;to inspire conservation of the oceans.&quot;  The aquarium's initial financial backing was provided by [[David Packard]], co-founder of [[Hewlett-Packard]].  Packard, an avid [[blacksmith]], personally designed and created several exhibit elements for the aquarium at his forge in [[Big Sur]], including the wave machines in the Kelp Forest and aviary. His daughter, marine biologist Julie Packard, is currently Executive Director of the aquarium.
+
+The aquarium was built in honor of the work of [[Edward Ricketts]] (1897–1948), a marine biologist who specialized in describing communities of organisms (which would also be the focus of aquarium tanks), and whose old laboratory ([[Pacific Biological Laboratories]]) (PCL)  and home resides next to the present MBA site.&lt;ref name=&quot;timeline2&quot;&gt;
+{{Cite web
+|url=http://www.montereybayaquarium.org/about/our-history
+|title=Explore Our History: 1977
+|work=montereybayaquarium.org
+|publisher=Monterey Bay Aquarium
+|accessdate=8 April 2012
+}}&lt;/ref&gt; Ricketts, whose life was an inspiration for the eventual building of the aquarium, is famous as the &quot;Doc&quot; of [[John Steinbeck]]'s ''[[Cannery Row (novel)|Cannery Row]]'' and ''[[Sweet Thursday]]''. The aquarium itself contains a display of Ricketts' items, including some of his personal library. The shop also sells a variety of Steinbeck books.`,
+	},
 }
 
 func testOneParseInfobox(t *testing.T, ti testInfoText) {
@@ -138,7 +242,11 @@ func testOneParseInfobox(t *testing.T, ti testInfoText) {
 	}
 
 	for k, v := range ti.attributes {
-		if res.Attributes[k] != v {
+		val, ok := res.Attributes[k]
+		switch {
+		case !ok:
+			t.Fatalf("Expected result to have attribute %s but it was missing", k)
+		case v != val:
 			t.Fatalf("Expected attribute %s to have value %s but had %s", k, v, res.Attributes[k])
 		}
 	}

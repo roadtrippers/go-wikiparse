@@ -10,7 +10,7 @@ var adrRE, formatPropertyRE *regexp.Regexp
 
 func init() {
 	adrRE = regexp.MustCompile(`(?mis){{mf-adr\s*(.*)\s*}}`)
-	formatPropertyRE = regexp.MustCompile(`(?i)\|\s*([a-zA-Z\-_]+)\s*=\s*(.*)`)
+	formatPropertyRE = regexp.MustCompile(`(?i)\|([a-zA-Z\-_\s]+)=(.*)`)
 }
 
 type MFAdr struct {
@@ -38,7 +38,7 @@ func ParseMFAdr(text string) (*MFAdr, error) {
 	}
 
 	for _, prop := range properties {
-		switch prop[1] {
+		switch strings.TrimSpace(prop[1]) {
 		case "street":
 			res.Street = strings.TrimSpace(prop[2])
 		case "city":
