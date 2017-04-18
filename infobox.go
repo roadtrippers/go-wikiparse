@@ -4,6 +4,7 @@ import (
 	"regexp"
 	"errors"
 	"strings"
+	"fmt"
 )
 
 var infoboxRE, infoboxStartRE *regexp.Regexp
