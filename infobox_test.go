@@ -8,6 +8,7 @@ import (
 type testInfoText struct {
 	input string
 	templateType string
+	attributes map[string]string
 }
 
 var infoTestData = []testInfoText {
@@ -29,6 +30,19 @@ var infoTestData = []testInfoText {
 The Cincinnati Zoo and Botanical Garden is the second-oldest [[zoo]] in the United States and is located in [[Cincinnati, Ohio|Cincinnati]], [[Ohio]]. It opened in 1875, just 14 months after the [[Philadelphia Zoo]] on July 1, 1874. The [[Cincinnati Zoo Historic Structures|Reptile House]] is the oldest zoo building in the United States, dating from 1875.
 `,
 		"zoo",
+		map[string]string{
+			"zoo_name": "Cincinnati Zoo",
+			"image": "Cincinnati Zoo.jpg",
+			"location": "3400 Vine St, [[Cincinnati]], [[Ohio]], U.S.",
+			"coordinates": "{{Coord|39.145|N|84.508|W|display=inline,title|source:nlwiki}}",
+			"area": "{{Convert|75|acre}}&lt;ref&gt;{{cite book |url=https://books.google.com/books?id=-I6TgnxWnj8C&amp;pg=PA491 |title=Frommer's USA |publisher=John Wiley &amp; Sons |date=Feb 17, 2009 |accessdate=2013-05-09 |author=Baird, David |pages=491|display-authors=etal}}&lt;/ref&gt;",
+			"date_opened": "1875&lt;ref name=&quot;zoo_about&quot;/&gt;",
+			"num_animals": "1,896",
+			"num_species": "500+&lt;ref name=&quot;zoo_about&quot;/&gt;",
+			"annual_visitors": "1.2 million+&lt;ref name=&quot;zoo_about&quot;/&gt;",
+			"members": "[[Association of Zoos and Aquariums|AZA]],&lt;ref name=&quot;aza_list&quot;/&gt; [[World Association of Zoos and Aquariums|WAZA]]&lt;ref name=&quot;waza_list&quot;/&gt;",
+			"website": "{{URL|http://www.cincinnatizoo.org}}",
+		},
 	},
 	testInfoText{
 		`        <username>Pacphobia</username>
@@ -73,6 +87,27 @@ His first 9 bouts, including a five-round knockout win in a rematch with Cruz, w
 
 By 1929, Sardiñas was becoming a name to be reckoned with in boxing. He had 23 fights that year, and continued his undefeated run by winning each of them. He also began to box more competent opponents. Among the boxers he defeated were former world champion [[Fidel LaBarba]] (beaten by a decision in ten), future world champion [[Al Singer]] (also by a decision in ten), and fringe contenders [[Bushy Graham]], [[Vic Burrone]] and [[Gregorio Vidal]], all of whom, except for Graham, were beaten by decision. Graham was disqualified in the seventh round.`,
 		"boxer",
+		map[string]string{
+			"name" : "Kid Chocolate",
+			"nationality" : "[[Cuba]]n",
+			"realname" : "Eligio Sardiñas Montalvo",
+			"image" : "Kid Chocolate.jpg",
+			"nickname" : "The Cuban Bon Bon",
+			"height" : "{{convert|1.68|m|ftin|abbr=on}}",
+			"reach" : "{{convert|165|cm|in|abbr=on}}",
+			"weight" : "[[Super Featherweight]]",
+			"birth_date" : "January 6, 1910",
+			"birth_place" : "[[Cerro, Havana|Cerro]], [[Havana]], [[Cuba]]",
+			"death_date" : "{{death date and age|1988|8|8|1910|1|6|mf=y}}",
+			"death_place" : "[[Cuba]]",
+			"style" : "Orthodox",
+			"total" : "152",
+			"wins" : "136",
+			"KO" : "51",
+			"losses" : "10",
+			"draws" : "6",
+			"no contests" : "",
+		},
 	},
 }
 
@@ -86,6 +121,12 @@ func testOneInfobox(t *testing.T, ti testInfoText) {
 
 	if res.TemplateType != ti.templateType {
 		t.Fatalf("Expected template type of %v, got %v\n", ti.templateType, res.TemplateType)
+	}
+
+	for k, v := range ti.attributes {
+		if res.Attributes[k] != v {
+			t.Fatalf("Expected attribute %s to have value %s but had %s", k, v, res.Attributes[k])
+		}
 	}
 }
 

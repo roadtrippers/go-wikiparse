@@ -10,7 +10,7 @@ var adrRE, formatPropertyRE *regexp.Regexp
 
 func init() {
 	adrRE = regexp.MustCompile(`(?mis){{mf-adr\s*(.*)\s*}}`)
-	formatPropertyRE = regexp.MustCompile(`(?mis)\|\s*([a-zA-Z\-_]+)\s*=\s*(.[^|]*)`)
+	formatPropertyRE = regexp.MustCompile(`(?i)\|\s*([a-zA-Z\-_]+)\s*=\s*(.*)`)
 }
 
 type MFAdr struct {

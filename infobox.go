@@ -6,12 +6,10 @@ import (
 	"strings"
 )
 
-var infoboxRE, templateTypeRE, templateLabelRE *regexp.Regexp
+var infoboxRE *regexp.Regexp
 
 func init() {
 	infoboxRE = regexp.MustCompile(`(?mis){{infobox\s*(.[^\s|}]*)\s*(.*)\s*}}`)
-	templateTypeRE = regexp.MustCompile(`(?i){{infobox (.*)`)
-	templateLabelRE = regexp.MustCompile(`(?i)([a-zA-Z\-_]+)\s*=\s*(.*)`)
 }
 
 type Infobox struct {
