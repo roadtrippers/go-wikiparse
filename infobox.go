@@ -4,7 +4,6 @@ import (
 	"regexp"
 	"errors"
 	"strings"
-	"fmt"
 )
 
 var infoboxRE, infoboxStartRE *regexp.Regexp
@@ -73,6 +72,6 @@ func ParseInfobox(text string) (*Infobox, error) {
 }
 
 func WithoutInfobox(text string) (string) {
-	start, end := infoboxBounds(nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), ""))
-	return fmt.Sprintf("%s%s", text[0:start], text[end:])
+	cleaned := nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), "")
+	return strings.Replace(cleaned, infoboxText(cleaned), "", -1)
 }
