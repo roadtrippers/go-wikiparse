@@ -73,5 +73,5 @@ func ParseInfobox(text string) (*Infobox, error) {
 
 func WithoutInfobox(text string) (string) {
 	start, end := infoboxBounds(nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), ""))
-	return text[0:start] + text[end:]
+	return fmt.Sprintf("%s%s", text[0:start], text[end:])
 }
