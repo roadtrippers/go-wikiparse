@@ -39,3 +39,8 @@ func ParseInfobox(text string) (*Infobox, error) {
 
 	return &res, nil
 }
+
+func WithoutInfobox(text string) (string) {
+	return infoboxRE.ReplaceAllString(nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""),
+		""), "")
+}
