@@ -47,9 +47,15 @@ func infoboxText(text string) string {
 	return text[start:end]
 }
 
+func IsInfobox(text string) bool {
+	return infoboxStartRE.MatchString(text)
+}
+
 func ParseInfobox(text string) (*Infobox, error) {
-	res := Infobox{}
-	res.Attributes = make(map[string]string)
+	res := Infobox{
+		Attributes: make(map[string]string),
+	}
+
 	cleaned := nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), "")
 	infoboxString := infoboxText(cleaned)
 	matches := infoboxRE.FindAllStringSubmatch(infoboxString, -1)
@@ -62,12 +68,6 @@ func ParseInfobox(text string) (*Infobox, error) {
 
 	properties := formatPropertyRE.FindAllStringSubmatch(matches[0][2], -1)
 
-	// TODO: Parse microformats
-	// Microfomats:
-	// - start date
-	// - start date and age
-	// - end date
-	// - URL
 	for _, prop := range properties {
 		attr := strings.TrimSpace(prop[1])
 		val := strings.TrimSpace(prop[2])

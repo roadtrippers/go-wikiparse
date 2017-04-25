@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-var coordRE, nowikiRE, commentRE *regexp.Regexp
+var coordRE, coordStartRE *regexp.Regexp
 
 // ErrNoCoordFound is returned from ParseCoords when there's no
 // coordinate date found.
@@ -19,8 +19,7 @@ var errNotSexagesimal = errors.New("not a sexagesimal value")
 
 func init() {
 	coordRE = regexp.MustCompile(`(?mi){{coord\|(.[^}]*)}}`)
-	nowikiRE = regexp.MustCompile(`(?ms)<nowiki>.*</nowiki>`)
-	commentRE = regexp.MustCompile(`(?ms)<!--.*-->`)
+	coordStartRE = regexp.MustCompile(`(?mi){{coord`)
 }
 
 // Coord is Longitude/latitude pair from a coordinate match.
@@ -128,6 +127,10 @@ func cleanCoordParts(in []string) []string {
 	}
 
 	return out
+}
+
+func IsCoords(text string) bool {
+	return coordStartRE.MatchString(text)
 }
 
 // ParseCoords parses geographical coordinates as specified in
