@@ -25,8 +25,6 @@ func ParseTemplate(text string) (interface{}, error) {
 		return ParseStartDateAndAge(text)
 	case IsURL(text):
 		return ParseURL(text)
-	case IsInfobox(text):
-		return ParseInfobox(text)
 	}
 
 	return text, nil
