@@ -62,6 +62,12 @@ func ParseInfobox(text string) (*Infobox, error) {
 
 	properties := formatPropertyRE.FindAllStringSubmatch(matches[0][2], -1)
 
+	// TODO: Parse microformats
+	// Microfomats:
+	// - start date
+	// - start date and age
+	// - end date
+	// - URL
 	for _, prop := range properties {
 		attr := strings.TrimSpace(prop[1])
 		val := strings.TrimSpace(prop[2])
