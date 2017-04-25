@@ -21,7 +21,7 @@ type TimeStruct struct {
 var startDateStartRE *regexp.Regexp
 
 func init() {
-	startDateStartRE = regexp.MustCompile(`(?mi){{start date`)
+	startDateStartRE = regexp.MustCompile(`(?mi){{start date|`)
 }
 
 func IsStartDate(text string) bool {
@@ -53,55 +53,37 @@ func ParseStartDate(text string) (*TimeStruct, error) {
 		return nil, errors.New("No start date found")
 	}
 
-	var err error
+	var (
+		value int
+		err error
+	)
 
-	if result.Year, err = strconv.Atoi(parts[1]); err != nil {
-		return nil, err
-	}
-
-	if len(parts) > 2 && len(parts[2]) > 0 {
-		if result.Month, err = strconv.Atoi(parts[2]); err != nil { return nil, err }
-	}
-
-	if len(parts) > 3 && len(parts[3]) > 0 {
-		if result.DayOfMonth, err = strconv.Atoi(parts[3]); err != nil { return nil, err }
-	}
-
-	if len(parts) > 4 && len(parts[4]) > 0 {
-		if strings.Contains(parts[4], "df") {
+	for i, v := range parts[1:] {
+		if strings.Contains(v, "df=") {
 			result.DayFirst = true
-		} else if result.Hour, err = strconv.Atoi(parts[4]); err != nil {
-			return nil, err
-		}
-	}
-
-	if len(parts) > 5 && len(parts[5]) > 0 {
-		if strings.Contains(parts[5], "df") {
-			result.DayFirst = true
-		} else if result.Min, err = strconv.Atoi(parts[5]); err != nil {
-			return nil, err
-		}
-	}
-
-	if len(parts) > 6 && len(parts[6]) > 0 {
-		if strings.Contains(parts[6], "df") {
-			result.DayFirst = true
-		} else if result.Sec, err = strconv.Atoi(parts[6]); err != nil {
-			return nil, err
-		}
-	}
-
-	if len(parts) > 7 {
-		if strings.Contains(parts[7], "df") {
-			result.DayFirst = true
-		} else {
-			result.Offset = parts[7]
-		}
-	}
-
-	if len(parts) > 8 {
-		if strings.Contains(parts[8], "df") {
-			result.DayFirst = true
+		} else if len(v) > 0 {
+			if value, err = strconv.Atoi(v); err != nil {
+				if i == 6 {
+					result.Offset = v
+				} else {
+					return nil, err
+				}
+			} else {
+				switch i {
+				case 0:
+					result.Year = value
+				case 1:
+					result.Month = value
+				case 2:
+					result.DayOfMonth = value
+				case 3:
+					result.Hour = value
+				case 4:
+					result.Min = value
+				case 5:
+					result.Sec = value
+				}
+			}
 		}
 	}
 
