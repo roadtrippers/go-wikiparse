@@ -3,7 +3,6 @@ package wikiparse
 import (
 	"testing"
 	"reflect"
-	"math"
 )
 
 type convertTestInput struct {
@@ -124,32 +123,16 @@ var convertTestData = []convertTestInput{
 		[]string{
 			"1",
 			"2",
+			"3",
 		},
 		[]string{
+			"yd",
 			"ft",
 			"in",
 		},
 		[]string{},
 		[]string{},
 	},
-}
-
-func equal(a, b []float64) bool {
-	if a == nil && b == nil {
-		return true
-	} else if a == nil || b == nil {
-		return false
-	} else if len(a) != len(b) {
-		return false
-	} else {
-		for i, v := range a {
-			if math.Abs(v - b[i]) > 0.00001 {
-				return false
-			}
-		}
-	}
-
-	return true
 }
 
 func testOneConvert(t *testing.T, ti convertTestInput) {

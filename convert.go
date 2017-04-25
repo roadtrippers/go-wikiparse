@@ -336,7 +336,12 @@ func IsConvert(text string) bool {
 }
 
 func ParseConvert(text string) (*Convert, error) {
-	results := Convert{}
+	results := Convert{
+		InputValues: make([]string, 0),
+		InputUnits: make([]string, 0),
+		OutputUnits: make([]string, 0),
+		Options: make([]string, 0),
+	}
 
 	cleaned := nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), "")
 	parts := strings.Split(cleaned, "|")
@@ -352,8 +357,6 @@ func ParseConvert(text string) (*Convert, error) {
 	// cvt variant always implies abbr=on
 	if parts[0] == "cvt" {
 		results.Options = append(results.Options, "abbr=on")
-	} else {
-		results.Options = make([]string, 0)
 	}
 
 	inRange := false
