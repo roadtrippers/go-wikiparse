@@ -2,6 +2,7 @@ package wikiparse
 
 import (
 	"regexp"
+	"strings"
 )
 
 var nowikiRE, commentRE *regexp.Regexp
@@ -17,6 +18,8 @@ func ParseTemplate(text string) (interface{}, error) {
 		return ParseMFAdr(text)
 	case IsCoords(text):
 		return ParseCoords(text)
+	case IsAltCoords(text):
+		return ParseAltCoords(text)
 	case IsConvert(text):
 		return ParseConvert(text)
 	case IsStartDate(text):
@@ -30,4 +33,15 @@ func ParseTemplate(text string) (interface{}, error) {
 	}
 
 	return text, nil
+}
+
+func partsFromText(text string) []string {
+	cleaned := nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), "")
+	parts := strings.Split(cleaned, "|")
+
+	for i, v := range parts {
+		parts[i] = strings.TrimSpace(bracketReplacer.Replace(v))
+	}
+
+	return parts
 }

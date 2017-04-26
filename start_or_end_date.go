@@ -81,17 +81,6 @@ func timeStructFromParts(parts []string) (*TimeStruct, error) {
 	return &result, nil
 }
 
-func partsFromText(text string) []string {
-	cleaned := nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), "")
-	parts := strings.Split(cleaned, "|")
-
-	for i, v := range parts {
-		parts[i] = bracketReplacer.Replace(v)
-	}
-
-	return parts
-}
-
 // ParseStartDate accepts a Start Date template string and produces a TimeStruct holding the parsed
 // date/time components. If a component is not included, the value will be -1 with the exception of
 // Offset which will be an empty string.
