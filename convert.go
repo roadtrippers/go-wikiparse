@@ -347,7 +347,7 @@ func ParseConvert(text string) (*Convert, error) {
 	parts := strings.Split(cleaned, "|")
 
 	for i, v := range parts {
-		parts[i] = bracketReplacer.Replace(v)
+		parts[i] = strings.TrimSpace(bracketReplacer.Replace(v))
 	}
 
 	if !IsConvert(cleaned) || len(parts) == 0 {
