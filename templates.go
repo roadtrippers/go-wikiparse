@@ -1,6 +1,8 @@
 package wikiparse
 
-import "regexp"
+import (
+	"regexp"
+)
 
 var nowikiRE, commentRE *regexp.Regexp
 

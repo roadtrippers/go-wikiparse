@@ -16,7 +16,7 @@ type URLData struct {
 var urlStartRE *regexp.Regexp
 
 func init() {
-	urlStartRE = regexp.MustCompile(`(?mi){{\s*url\s*|`)
+	urlStartRE = regexp.MustCompile(`(?mi){{\s*url\s*\|`)
 }
 
 func IsURL(text string) bool {

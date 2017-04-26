@@ -148,6 +148,34 @@ var convertTestData = []convertTestInput{
 			"abbr=on",
 		},
 	},
+	convertTestInput{
+		"{{convert|2|ha|sqm}}",
+		[]string{
+			"2",
+		},
+		[]string{
+			"ha",
+		},
+		[]string{
+			"sq mi",
+		},
+		[]string{
+		},
+	},
+	convertTestInput{
+		"{{convert|2|ha|xxx}}",
+		[]string{
+			"2",
+			"xxx",
+		},
+		[]string{
+			"ha",
+		},
+		[]string{
+		},
+		[]string{
+		},
+	},
 }
 
 func testOneConvert(t *testing.T, ti convertTestInput) {

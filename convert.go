@@ -48,6 +48,7 @@ var unitCodes = map[string]string{
 	"cm2": "cm2",
 	"mm2": "mm2",
 	"ha": "ha",
+	"sqm": "sq mi",
 	"sqmi": "sq mi",
 	"acre": "acre",
 	"sqyd": "sq yd",

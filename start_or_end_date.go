@@ -21,8 +21,8 @@ type TimeStruct struct {
 var startDateStartRE, endDateStartRE *regexp.Regexp
 
 func init() {
-	startDateStartRE = regexp.MustCompile(`(?mi){{start date|`)
-	endDateStartRE = regexp.MustCompile(`(?mi){{end date|`)
+	startDateStartRE = regexp.MustCompile(`(?mi){{\s*start date\s*\|`)
+	endDateStartRE = regexp.MustCompile(`(?mi){{\s*end date\s*\|`)
 }
 
 func IsStartDate(text string) bool {
@@ -98,7 +98,7 @@ func partsFromText(text string) []string {
 func ParseStartDate(text string) (*TimeStruct, error) {
 	parts := partsFromText(text)
 
-	if len(parts) == 0 || !IsStartDate(parts[0]) {
+	if len(parts) == 0 || !IsStartDate(text) {
 		return nil, errors.New("No start date found")
 	}
 
@@ -111,7 +111,7 @@ func ParseStartDate(text string) (*TimeStruct, error) {
 func ParseEndDate(text string) (*TimeStruct, error) {
 	parts := partsFromText(text)
 
-	if len(parts) == 0 || !IsEndDate(parts[0]) {
+	if len(parts) == 0 || !IsEndDate(text) {
 		return nil, errors.New("No end date found")
 	}
 
