@@ -43,7 +43,8 @@ var rangeIndicators = map[string]string{
 
 var unitCodes = map[string]string{
 	"km2": "km2",
-	"m2": "m2",
+	"m2": "m²",
+	"m²": "m²",
 	"cm2": "cm2",
 	"mm2": "mm2",
 	"ha": "ha",

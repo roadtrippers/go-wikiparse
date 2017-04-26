@@ -133,6 +133,21 @@ var convertTestData = []convertTestInput{
 		[]string{},
 		[]string{},
 	},
+	convertTestInput{
+		"{{convert|357,000|m²|sqmi|abbr=on}}",
+		[]string{
+			"357,000",
+		},
+		[]string{
+			"m²",
+		},
+		[]string{
+			"sq mi",
+		},
+		[]string{
+			"abbr=on",
+		},
+	},
 }
 
 func testOneConvert(t *testing.T, ti convertTestInput) {
