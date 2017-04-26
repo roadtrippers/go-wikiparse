@@ -16,10 +16,10 @@ func ParseTemplate(text string) (interface{}, error) {
 	switch {
 	case IsMFAdr(text):
 		return ParseMFAdr(text)
-	case IsCoords(text):
-		return ParseCoords(text)
 	case IsAltCoords(text):
 		return ParseAltCoords(text)
+	case IsCoords(text):
+		return ParseCoords(text)
 	case IsConvert(text):
 		return ParseConvert(text)
 	case IsStartDate(text):
