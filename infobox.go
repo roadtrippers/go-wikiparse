@@ -6,10 +6,9 @@ import (
 	"strings"
 )
 
-var infoboxRE, infoboxStartRE *regexp.Regexp
+var  infoboxStartRE *regexp.Regexp
 
 func init() {
-	infoboxRE = regexp.MustCompile(`(?mis){{infobox\s*(.[^\s|}]*)\s*(.*)\s*}}`)
 	infoboxStartRE = regexp.MustCompile(`(?i){{infobox`)
 }
 
@@ -18,32 +17,8 @@ type Infobox struct {
 	Attributes map[string]string
 }
 
-func infoboxBounds(text string) (int, int) {
-	idxs := infoboxStartRE.FindAllStringIndex(text, -1)
-	if len(idxs) < 1 || len(idxs[0]) < 1 { return 0, 0 }
-
-	start := idxs[0][0]
-	end := start
-	bracesCounter := 0
-
-	for i := start; i < len(text); i++ {
-		if text[i] == '{' {
-			bracesCounter++
-		} else if text[i] == '}' {
-			bracesCounter--
-		}
-
-		if bracesCounter == 0 {
-			end = i + 1
-			break
-		}
-	}
-
-	return start, end
-}
-
 func infoboxText(text string) string {
-	start, end := infoboxBounds(text)
+	start, end := templateBounds(text, infoboxStartRE)
 	return text[start:end]
 }
 
@@ -56,23 +31,20 @@ func ParseInfobox(text string) (*Infobox, error) {
 		Attributes: make(map[string]string),
 	}
 
-	cleaned := nowikiRE.ReplaceAllString(commentRE.ReplaceAllString(text, ""), "")
-	infoboxString := infoboxText(cleaned)
-	matches := infoboxRE.FindAllStringSubmatch(infoboxString, -1)
+	parts := partsFromText(text, infoboxStartRE)
 
-	if len(matches) == 0 || len(matches[0]) == 0 {
+	if len(parts) == 0 || !IsInfobox(text) {
 		return nil, errors.New("No Infobox found")
 	}
 
-	res.TemplateType = matches[0][1]
+	infoboxSplits := strings.Split(parts[0], " ")
 
-	properties := formatPropertyRE.FindAllStringSubmatch(matches[0][2], -1)
-
-	for _, prop := range properties {
-		attr := strings.TrimSpace(prop[1])
-		val := strings.TrimSpace(prop[2])
-		res.Attributes[attr] = val
+	if len(infoboxSplits) < 2 {
+		infoboxSplits = strings.Split(parts[0], "\t")
 	}
+
+	res.TemplateType = strings.TrimSpace(infoboxSplits[1])
+	res.Attributes = attributesToMap(parts[1:])
 
 	return &res, nil
 }

@@ -16,7 +16,7 @@ func IsAltCoords(text string) bool {
 }
 
 func ParseAltCoords(text string) (Coord, error) {
-	parts := partsFromText(text)
+	parts := partsFromText(text, altCoordsRE)
 
 	if !IsAltCoords(text) || len(parts) < 3 {
 		return Coord{}, ErrNoCoordFound

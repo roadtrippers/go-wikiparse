@@ -85,7 +85,7 @@ func timeStructFromParts(parts []string) (*TimeStruct, error) {
 // date/time components. If a component is not included, the value will be -1 with the exception of
 // Offset which will be an empty string.
 func ParseStartDate(text string) (*TimeStruct, error) {
-	parts := partsFromText(text)
+	parts := partsFromText(text, startDateStartRE)
 
 	if len(parts) == 0 || !IsStartDate(text) {
 		return nil, errors.New("No start date found")
@@ -98,7 +98,7 @@ func ParseStartDate(text string) (*TimeStruct, error) {
 // date/time components. If a component is not included, the value will be -1 with the exception of
 // Offset which will be an empty string.
 func ParseEndDate(text string) (*TimeStruct, error) {
-	parts := partsFromText(text)
+	parts := partsFromText(text, endDateStartRE)
 
 	if len(parts) == 0 || !IsEndDate(text) {
 		return nil, errors.New("No end date found")
