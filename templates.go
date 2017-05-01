@@ -74,7 +74,7 @@ func templateAttributes(templateText string) []string {
 	for i := start; i < len(templateText) - 2; i++ {
 		if templateText[i] == '{' || templateText[i] == '[' {
 			bracketStack.Push(templateText[i])
-		} else if (templateText[i] == '}' || templateText[i] == ']') &&
+		} else if (templateText[i] == '}' || templateText[i] == ']') && bracketStack.Len() > 0 &&
 			bracketsMatch(bracketStack.Peek().(byte), templateText[i]) {
 			bracketStack.Pop()
 		} else if templateText[i] == '|' && bracketStack.Len() == 0 {
