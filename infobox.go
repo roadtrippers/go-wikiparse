@@ -43,7 +43,9 @@ func ParseInfobox(text string) (*Infobox, error) {
 		infoboxSplits = strings.Split(parts[0], "\t")
 	}
 
-	res.TemplateType = strings.TrimSpace(infoboxSplits[1])
+	if len(infoboxSplits) > 1 {
+		res.TemplateType = strings.TrimSpace(strings.Join(infoboxSplits[1:], " "))
+	}
 	res.Attributes = attributesToMap(parts[1:])
 
 	return &res, nil
