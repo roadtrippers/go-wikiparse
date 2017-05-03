@@ -14,6 +14,11 @@ var altCoordsTestInput = []altCoordsTestData{
 		35.0824099,
 		-106.6764794,
 	},
+	altCoordsTestData{
+		`{{coords|11.937227|N|103.485260|E|region:KH|notes=<ref name="odc">{{cite web | url=http://www.opendevelopmentcambodia.net/natural_resource/protected-areas/?id=63&cat=1&map | title=Open Development Cambodia: Central Cardamom Mountains | accessdate=27 December 2013}}</ref>|display=inline, title}}`,
+		11.937227,
+		103.485260,
+	},
 }
 
 func TestParseAltCoords(t *testing.T) {

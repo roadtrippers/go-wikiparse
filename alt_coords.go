@@ -2,7 +2,8 @@ package wikiparse
 
 import (
 	"regexp"
-	"strconv"
+	"math"
+	"fmt"
 )
 
 var altCoordsRE *regexp.Regexp
@@ -22,16 +23,19 @@ func ParseAltCoords(text string) (Coord, error) {
 		return Coord{}, ErrNoCoordFound
 	}
 
-	var err error
-	result := Coord{}
+	parts = cleanCoordParts(parts[1:])
 
-	if result.Lat, err = strconv.ParseFloat(parts[1], 64); err != nil {
-		return Coord{}, err
+	result, err := parseSexagesimal(parts)
+	if err != nil {
+		result, err = parseFloat(parts)
 	}
 
-	if result.Lon, err = strconv.ParseFloat(parts[2], 64); err != nil {
-		return Coord{}, err
+	if math.Abs(result.Lat) > 90 {
+		return result, fmt.Errorf("invalid latitude: %v", result.Lat)
+	}
+	if math.Abs(result.Lon) > 180 {
+		return result, fmt.Errorf("invalid longitude: %v", result.Lon)
 	}
 
-	return result, nil
+	return result, err
 }

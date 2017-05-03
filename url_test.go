@@ -94,6 +94,11 @@ var urlTestData = []urlTestInput{
 		"www.example.com",
 		"example.com",
 	},
+	urlTestInput{
+		"{{url|www.metmuseum.org}}",
+		"www.metmuseum.org",
+		"www.metmuseum.org",
+	},
 }
 
 func testOneUrl(t *testing.T, ti urlTestInput) {
