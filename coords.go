@@ -18,7 +18,7 @@ var ErrNoCoordFound = errors.New("no coord data found")
 var errNotSexagesimal = errors.New("not a sexagesimal value")
 
 func init() {
-	coordRE = regexp.MustCompile(`(?mi){{coord\|(.[^}]*)}}`)
+	coordRE = regexp.MustCompile(`(?mi){{coord\s*?\|(.[^}]*)}}`)
 	coordStartRE = regexp.MustCompile(`(?mi){{coord`)
 }
 
@@ -113,7 +113,7 @@ func cleanCoordParts(in []string) []string {
 	firstnumber := 0
 	var part string
 	for firstnumber, part = range in {
-		_, e := strconv.ParseFloat(part, 64)
+		_, e := strconv.ParseFloat(strings.TrimSpace(part), 64)
 		if e == nil {
 			break
 		}
