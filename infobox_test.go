@@ -14,6 +14,41 @@ type testInfoText struct {
 
 var infoTestData = []testInfoText {
 	testInfoText{
+		`{{Infobox NRHP | name = The Metropolitan Museum of Art
+|embed=yes
+| nrhp_type     = nhl
+| image         = Metropolitam Museum of Art by Simon Fieldhouse.jpg
+| caption       = Elevation by Simon Fieldhouse
+| area          =
+| built         = {{Start date and age|1874|df=yes}}
+| architect     = [[Richard Morris Hunt]]; also [[Calvert Vaux]]; [[Jacob Wrey Mould]]
+| architecture  = [[Beaux-Arts architecture|Beaux-Arts]]
+| designated_nrhp_type = June 24, 1986<ref name="nhlsum">{{cite web|url=http://tps.cr.nps.gov/nhl/detail.cfm?ResourceId=1967&ResourceType=Building|title=Metropolitan Museum of Art|work=National Historic Landmark summary listing|publisher=National Park Service|accessdate=2013-02-18}}</ref>
+<ref name="2016wsj">{{cite web|url=https://www.wsj.com/articles/a-new-plan-at-the-metropolitan-museum-1490122706|title=A New Strategy at The Met|accessdate=2017-03-22}}</ref>
+| added          = January 29, 1972<ref name="nris">{{NRISref|2007a}}</ref>
+| governing_body = Local
+| refnum         =86003556
+}}`,
+		"NRHP",
+		map[string]string{
+			"name": "The Metropolitan Museum of Art",
+			"embed": "yes",
+			"nrhp_type": "nhl",
+			"image": "Metropolitam Museum of Art by Simon Fieldhouse.jpg",
+			"caption": "Elevation by Simon Fieldhouse",
+			"area": "",
+			"built": "{{Start date and age|1874|df=yes}}",
+			"architect": "[[Richard Morris Hunt]]; also [[Calvert Vaux]]; [[Jacob Wrey Mould]]",
+			"architecture": "[[Beaux-Arts architecture|Beaux-Arts]]",
+			"designated_nrhp_type": `June 24, 1986<ref name="nhlsum">{{cite web|url=http://tps.cr.nps.gov/nhl/detail.cfm?ResourceId=1967&ResourceType=Building|title=Metropolitan Museum of Art|work=National Historic Landmark summary listing|publisher=National Park Service|accessdate=2013-02-18}}</ref>
+<ref name="2016wsj">{{cite web|url=https://www.wsj.com/articles/a-new-plan-at-the-metropolitan-museum-1490122706|title=A New Strategy at The Met|accessdate=2017-03-22}}</ref>`,
+			"added": `January 29, 1972<ref name="nris">{{NRISref|2007a}}</ref>`,
+			"governing_body": "Local",
+			"refnum": "86003556",
+		},
+		"",
+	},
+	testInfoText{
 		`{{Infobox lake
  |name = Great Salt Lake
  |image = Great Salt Lake ISS 2003.jpg
