@@ -6,10 +6,11 @@ import (
 	"strings"
 )
 
-var adrRE, formatPropertyRE *regexp.Regexp
+var adrRE, adrStartRE, formatPropertyRE *regexp.Regexp
 
 func init() {
 	adrRE = regexp.MustCompile(`(?mis){{mf-adr\s*(.*)\s*}}`)
+	adrStartRE = regexp.MustCompile(`(?mi){{mf-adr`)
 	formatPropertyRE = regexp.MustCompile(`(?i)\|([a-zA-Z\-_\s]+)=(.*)`)
 }
 
@@ -19,6 +20,10 @@ type MFAdr struct {
 	Region string
 	PostalCode string
 	Nation string
+}
+
+func IsMFAdr(text string) bool {
+	return adrStartRE.MatchString(text)
 }
 
 func ParseMFAdr(text string) (*MFAdr, error) {

@@ -14,6 +14,95 @@ type testInfoText struct {
 
 var infoTestData = []testInfoText {
 	testInfoText{
+		`{{Infobox NRHP | name = The Metropolitan Museum of Art
+|embed=yes
+| nrhp_type     = nhl
+| image         = Metropolitam Museum of Art by Simon Fieldhouse.jpg
+| caption       = Elevation by Simon Fieldhouse
+| area          =
+| built         = {{Start date and age|1874|df=yes}}
+| architect     = [[Richard Morris Hunt]]; also [[Calvert Vaux]]; [[Jacob Wrey Mould]]
+| architecture  = [[Beaux-Arts architecture|Beaux-Arts]]
+| designated_nrhp_type = June 24, 1986<ref name="nhlsum">{{cite web|url=http://tps.cr.nps.gov/nhl/detail.cfm?ResourceId=1967&ResourceType=Building|title=Metropolitan Museum of Art|work=National Historic Landmark summary listing|publisher=National Park Service|accessdate=2013-02-18}}</ref>
+<ref name="2016wsj">{{cite web|url=https://www.wsj.com/articles/a-new-plan-at-the-metropolitan-museum-1490122706|title=A New Strategy at The Met|accessdate=2017-03-22}}</ref>
+| added          = January 29, 1972<ref name="nris">{{NRISref|2007a}}</ref>
+| governing_body = Local
+| refnum         =86003556
+}}`,
+		"NRHP",
+		map[string]string{
+			"name": "The Metropolitan Museum of Art",
+			"embed": "yes",
+			"nrhp_type": "nhl",
+			"image": "Metropolitam Museum of Art by Simon Fieldhouse.jpg",
+			"caption": "Elevation by Simon Fieldhouse",
+			"area": "",
+			"built": "{{Start date and age|1874|df=yes}}",
+			"architect": "[[Richard Morris Hunt]]; also [[Calvert Vaux]]; [[Jacob Wrey Mould]]",
+			"architecture": "[[Beaux-Arts architecture|Beaux-Arts]]",
+			"designated_nrhp_type": `June 24, 1986<ref name="nhlsum">{{cite web|url=http://tps.cr.nps.gov/nhl/detail.cfm?ResourceId=1967&ResourceType=Building|title=Metropolitan Museum of Art|work=National Historic Landmark summary listing|publisher=National Park Service|accessdate=2013-02-18}}</ref>
+<ref name="2016wsj">{{cite web|url=https://www.wsj.com/articles/a-new-plan-at-the-metropolitan-museum-1490122706|title=A New Strategy at The Met|accessdate=2017-03-22}}</ref>`,
+			"added": `January 29, 1972<ref name="nris">{{NRISref|2007a}}</ref>`,
+			"governing_body": "Local",
+			"refnum": "86003556",
+		},
+		"",
+	},
+	testInfoText{
+		`{{Infobox lake
+ |name = Great Salt Lake
+ |image = Great Salt Lake ISS 2003.jpg
+ |caption = Satellite photo from August 2003 after five years of [[drought]], reaching near-record lows. Note the difference in colors between the northern and southern portions of the lake, the result of a railroad [[causeway]].
+ |image_bathymetry =
+ |caption_bathymetry =
+ |location = [[Utah]], [[United States]]
+ |coords = {{coord|41|10|N|112|35|W|region:US-UT_type:waterbody_scale:1000000|display=inline,title}}
+ |type = [[Endorheic]], [[hypersaline lake|hypersaline]], generally 27% salinity
+ |inflow = [[Bear River (Great Salt Lake)|Bear]], [[Jordan River (Utah)|Jordan]], [[Weber River|Weber]] rivers
+ |outflow =
+ |catchment = 21,500 sq mi (55,685 km²)
+ |basin_countries = United States
+ |length = 75 mi (120 km)
+ |width = 28 mi (45 km)
+ |area = 1,700 sq mi (4,400 km²)
+ |depth = 16 ft (4.9 m), when lake is at average level
+ |max-depth = 33 ft (10 m) average, high of {{convert|45|ft|m|abbr=on}} in 1987, low of {{convert|24|ft|m|abbr=on}} in 1963
+ |volume = {{convert|15338693.6|acre.ft|km3|2|abbr=on|lk=in}}
+ |residence_time =
+ |shore =
+ |elevation = historical average of 4,200 feet (1,283&nbsp;m), 4,190.3 feet (1,277&nbsp;m) as of 2016 July 7
+ |islands = 8–15 (variable, see ''[[Great Salt Lake#Islands|Islands]]'')
+ |cities = [[Salt Lake City|Salt Lake]] and [[Ogden, Utah|Ogden]] [[metropolitan area]]s.
+}}`,
+		"lake",
+		map[string]string{
+			"name" : "Great Salt Lake",
+			"image" : "Great Salt Lake ISS 2003.jpg",
+			"caption" : "Satellite photo from August 2003 after five years of [[drought]], reaching near-record lows. Note the difference in colors between the northern and southern portions of the lake, the result of a railroad [[causeway]].",
+			"image_bathymetry" : "",
+			"caption_bathymetry" : "",
+			"location" : "[[Utah]], [[United States]]",
+			"coords" : "{{coord|41|10|N|112|35|W|region:US-UT_type:waterbody_scale:1000000|display=inline,title}}",
+			"type" : "[[Endorheic]], [[hypersaline lake|hypersaline]], generally 27% salinity",
+			"inflow" : "[[Bear River (Great Salt Lake)|Bear]], [[Jordan River (Utah)|Jordan]], [[Weber River|Weber]] rivers",
+			"outflow" : "",
+			"catchment" : "21,500 sq mi (55,685 km²)",
+			"basin_countries" : "United States",
+			"length" : "75 mi (120 km)",
+			"width" : "28 mi (45 km)",
+			"area" : "1,700 sq mi (4,400 km²)",
+			"depth" : "16 ft (4.9 m), when lake is at average level",
+			"max-depth" : "33 ft (10 m) average, high of {{convert|45|ft|m|abbr=on}} in 1987, low of {{convert|24|ft|m|abbr=on}} in 1963",
+			"volume" : "{{convert|15338693.6|acre.ft|km3|2|abbr=on|lk=in}}",
+			"residence_time" : "",
+			"shore" : "",
+			"elevation" : "historical average of 4,200 feet (1,283&nbsp;m), 4,190.3 feet (1,277&nbsp;m) as of 2016 July 7",
+			"islands" : "8–15 (variable, see ''[[Great Salt Lake#Islands|Islands]]'')",
+			"cities" : "[[Salt Lake City|Salt Lake]] and [[Ogden, Utah|Ogden]] [[metropolitan area]]s.",
+		},
+		"",
+	},
+	testInfoText{
 		`{{Infobox zoo
 |zoo_name=Cincinnati Zoo
 |image=Cincinnati Zoo.jpg

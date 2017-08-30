@@ -150,6 +150,24 @@ var testdata = []testinput{
 			`strconv.ParseFloat: parsing "foo": invalid syntax`,
 		},
 	*/
+	testinput{
+		"{{Coord |31.037650|-83.076987|display=inline,title|type:edu}}<ref name=geofndr>{{cite web |url=http://geocoder.us |title=Free US Geocoder |accessdate=2010-06-29}}</ref>",
+		31.037650,
+		-83.076987,
+		"",
+	},
+	testinput{
+		"{{Coord|35.87558 |N|106.32277|W|}}",
+		35.87558,
+		-106.32277,
+		"",
+	},
+	testinput{
+		"{{Coord | 43 | 46 | 54.30 | N | 7 | 39 | 42.16 | E | display = title}}",
+		43.78175,
+		7.661711111111112,
+		"",
+	},
 }
 
 func assertEpsilon(t *testing.T, input, field string, expected, got float64) {
