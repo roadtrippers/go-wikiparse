@@ -188,7 +188,7 @@ Sponges do not have distinct [[circulatory]], [[respiratory]], [[digestion|diges
 It used to be claimed that [[glass sponge]]s could live on nutrients dissolved in sea water and were very averse to silt.<ref name="Krautter1998EcologyOfSiliceousSponges">{{Cite journal
 | author=Krautter, M.
 | title=Ecology of siliceous sponges: Application to the environmental interpretation of the Upper Jurassic sponge facies (Oxfordian) from Spain
-| journal=Cuadernos de Geología Ibérica | year=1998 | volume=24 | pages=223–239 
+| journal=Cuadernos de Geología Ibérica | year=1998 | volume=24 | pages=223–239
 | url=http://web.archive.org/web/20090319205858/http://www.ucm.es/BUCM/revistas/geo/16986180/articulos/JIGE9898110223A.PDF
 |format=PDF| accessdate=2008-11-10
 }}</ref> However a study in 2007 found no evidence of this and concluded that they extract bacteria and other micro-organisms from water very efficiently (about 79%) and process suspended sediment grains to extract such prey.<ref>{{Cite journal
@@ -829,8 +829,131 @@ Lacking any protective shell or means of escape, sponges have evolved to synthes
 [[zh:多孔动物门]]
 `
 
+var sunstudio = `
+{{About|the recording studio|the software development tool suite|Sun Studio (software)}}
+{{Infobox NRHP
+| name = Sun Record Company, Memphis Recording Service
+| nrhp_type = nhl
+| image = Sun Studio, Memphis.jpg
+| caption = Sun Studio
+| location = 706 Union Avenue, [[Memphis, Tennessee]], U.S.
+| coordinates = {{coord|35|8|21.29|N|90|2|15.64|W|display=inline,title}}
+| locmapin = Tennessee#USA
+| built = 1950
+| architect =
+| architecture =
+| designated_nrhp_type=July 31, 2003<ref name="nhlsum">{{cite web|url=http://tps.cr.nps.gov/nhl/detail.cfm?ResourceId=-1610892873&ResourceType=Building |title=Sun Record Company, Memphis Recording Service  |accessdate=2009-09-01|work=National Historic Landmark summary listing|publisher=National Park Service}}</ref>
+| added = July 31, 2003<ref name="nris">{{NRISref|2009a}}</ref>
+| area = less than one acre
+| governing_body = Private
+| refnum = 03001031
+}}
+'''Sun Studio''' is a recording studio opened by rock-and-roll pioneer [[Sam Phillips]] at 706 Union Avenue in [[Memphis, Tennessee]], on January 3, 1950. It was originally called '''Memphis Recording Service''', sharing the same building with the [[Sun Records]] label business. Reputedly the first [[rock and roll]] single, Jackie Brenston and his Delta Cats' "[[Rocket 88]]" was recorded there in 1951 with song composer [[Ike Turner]] on keyboards, leading the studio to claim status as the birthplace of rock & roll. [[Blues]] and [[R&B]] artists like [[Howlin' Wolf]], [[Junior Parker]], [[Little Milton]], [[B.B. King]], [[James Cotton]], [[Rufus Thomas]], and [[Rosco Gordon]] recorded there in the early 1950s.
+
+[[Rock and roll]], [[country music]], and [[rockabilly]] artists, including [[Johnny Cash]], [[Elvis Presley]], [[Carl Perkins]], [[Roy Orbison]], [[Charlie Feathers]], [[Ray Harris]], [[Warren Smith (singer)|Warren Smith]], [[Charlie Rich]], and [[Jerry Lee Lewis]], recorded there throughout the mid-to-late 1950s until the studio outgrew its Union Avenue location. Sam Phillips opened the larger Sam C. Phillips Recording Studio, better known as [[Phillips Recording]], in 1959 to replace the older facility. Since Phillips had invested in the Holiday Inn Hotel chain earlier, he also recorded artists starting in 1963 on the label [[Holiday Inn Records]] for [[Kemmons Wilson]]. In 1957, [[Bill Justis]] recorded his [[Grammy Hall of Fame]] song "[[Raunchy (song)|Raunchy]]" for Sam Phillips and worked as a musical director at Sun Records.
+
+In 1969, Sam Phillips sold the label to Shelby Singleton, and there was no recording-related or label-related activity again in the building until the September 1985 ''[[Class of '55]]'' recording sessions with Carl Perkins, Roy Orbison, Jerry Lee Lewis, and Johnny Cash, produced by [[Chips Moman]].
+
+In 1987, the original building housing the Sun Records label and Memphis Recording Service was reopened by Gary Hardy as "Sun Studio," a recording label and tourist attraction that has attracted many notable artists, such as [[U2]], [[Def Leppard]], [[Bonnie Raitt]], and [[Ringo Starr]].
+
+In 2005, [[Brian Setzer]] (of Stray Cats fame) released his ''Rockabilly Riot Vol. 1: A Tribute To Sun Records'' album. Although not recorded at Sun it did feature various Sun Records recordings including some hits and other more obscure songs. In 2007, Canadian rockabilly band the Kingmakers recorded a selection of originals and classics such as Elvis Presley's "That's All Right" at Sun Studio, released as their first CD "Live at SUN Studio". In May 2009, Canadian blues artist [[JW-Jones]] recorded with blues legend [[Hubert Sumlin]], [[Larry Taylor]] and [[Richard Innes]] for his 2010 release at the studio. In July 2009, [[John Mellencamp]] recorded nine songs for his album ''[[No Better Than This]]'' at the studio. In 2011, [[Chris Isaak]] released "Beyond the Sun," a collection of songs recorded at Sun Studio, most of which are cover versions of songs originally released on Sun Records.
+
+==Beginnings and Phillips Records==
+[[Image:Sunoffice2005.jpg|thumb|right|The front office of the Sun Studio, where office manager [[Marion Keisker]] worked and greeted many artists on their first visit to the studio, including a young [[Elvis Presley]].]]
+In January 1950, [[WREC]] radio engineer Sam Phillips opened the Memphis Recording Service at 706 Union Avenue with his assistant and long-time friend, [[Marion Keisker]].<ref name=Victor399>Victor, pp. 399</ref> Phillips had dreamed of opening his own recording studio since he was a young man, and now that it was a reality he was overjoyed. However, getting the company off the ground was not an easy task. To create revenue at the beginning, Phillips would record conventions, weddings, choirs, and even funerals. He also held an open door policy, allowing anybody to walk in and, for a small fee, record their own record. Phillips' slogan for his studio was "We Record Anything, Anywhere, Anytime."<ref name=Victor399/> In June, Phillips and a friend, local DJ [[Dewey Phillips]] who was no relation, set up their own record label called Phillips Records.<ref name=Day8>Guralnick/Jorgensen, pp. 8</ref> The purpose of the label was to record "negro artists of the South" who wanted to make a recording but had no place to do so. The label failed to make an impact and folded after just one release; "Boogie in the Park" by [[Joe Hill Louis]], which sold less than 400 copies.<ref name=AZ153>Worth/Tamerius, pp. 153</ref>
+
+After the failure of Phillips Records, Phillips began working closely with other record labels such as [[Chess Records]] and [[Modern Records]], providing demo recordings for them and recording master tapes for their artists.<ref name=AZ153/> It was during this time that Phillips recorded what many consider to be the first rock and roll song, [[Jackie Brenston]]'s "[[Rocket 88]]".<ref name=Victor399/> Some biographers have suggested that it was Phillips' inventive creativeness that led to the songs unique sound, but others put it down to the fact that the amplifier used on the record was broken, leading to a "fuzzy" sound.<ref name=AZ153/> The Sun Studio tour lends credence to the latter, with the tour guide saying the amplifier was stuffed with wads of newspaper.
+
+==Sun Records==
+In early 1952, Phillips once again launched his own record label, this time calling it Sun Records.<ref name=Victor399/> During his first year he recorded several artists who would go on to have successful careers. Among them were [[B.B. King]], Joe Hill Louis, [[Rufus Thomas]], and [[Howlin' Wolf]]. Despite the number of singers who recorded there, Phillips found it increasingly difficult to keep profits up. He reportedly drove over 60,000 miles in one year to promote his artists with radio stations and distributors. To keep costs down, he would pay his artists 3% [[royalties]] instead of the usual 5% that was more common at the time. Phillips turned to [[alcohol]] when it looked like his label would once again fail, and he was put into a [[mental hospital]] at one point, reportedly getting [[electric shock treatment]].<ref name=Victor399/>
+
+Rufus Thomas' "Bearcat", a recording that was similar to "[[Hound Dog (song)|Hound Dog]]", was the first real hit for Sun in 1953. Although the song was the label's first hit, a copyright-infringement suit ensued and nearly bankrupted Phillips' record label.<ref>Victor, pp. 50</ref> Despite this, Phillips was able to keep his business afloat by recording several other acts, including [[the Prisonaires]]; a black quartet who were given permission to leave prison in June 1953 to record their single, "Just Walkin' in the Rain", later a hit for [[Johnnie Ray]] in 1956.<ref>Victor, pp. 424</ref> The song was a big enough hit that the local newspaper took an interest in the story of its recording. A few biographers have said that this article, printed in the ''[[Memphis Press-Scimitar]]'' on July 15, influenced Elvis Presley to seek out Sun to record a demo record.<ref>Guralnick/Jorgensen, p.12</ref>
+
+==Elvis Presley==
+In August 1953, fresh out of his high school graduation the previous June, the 18½ year old Presley walked into the offices of Sun. He aimed to pay for a few minutes of studio time to record a two-sided [[acetate disc]]: "[[My Happiness (country song)|My Happiness]]" and "That's When Your Heartaches Begin". He would later claim he intended the record as a gift for his mother, or was merely interested in what he "sounded like", though there was a much cheaper, amateur record-making service at a nearby general store. Biographer [[Peter Guralnick]] argues that he chose Sun in the hope of being discovered. Asked by receptionist [[Marion Keisker]] what kind of singer he was, Presley responded, "I sing all kinds." When she pressed him on whom he sounded like, he repeatedly answered, "I don't sound like nobody." After he recorded, Phillips asked Keisker to note down the young man's name, which she did along with her own commentary: "Good ballad singer. Hold."<ref>Guralnick, 1994, pp. 62–64</ref> Presley cut a second acetate in January 1954—"I'll Never Stand In Your Way" and "It Wouldn't Be the Same Without You"—but again nothing came of it.<ref>Guralnick, 1994, p. 65</ref>
+
+Phillips, meanwhile, was always on the lookout for someone who could bring the sound of the black musicians on whom Sun focused to a broader audience. As Keisker reported, "Over and over I remember Sam saying, 'If I could find a white man who had the Negro sound and the Negro feel, I could make a billion dollars.'"<ref>Miller, 2000, p. 72</ref> In June, he acquired a demo recording of a ballad, "Without You", that he thought might suit the teenaged singer. Presley came by the studio, but was unable to do it justice. Despite this, Phillips asked Presley to sing as many numbers as he knew. He was sufficiently affected by what he heard to invite two local musicians, guitarist [[Scotty Moore|Winfield "Scotty" Moore]] and [[double bass|upright bass]] player [[Bill Black]], to work something up with Presley for a recording session.<ref>Jorgensen, 1998, pp. 10–11</ref>
+
+The session, held the evening of July 5, proved entirely unfruitful until late in the night. As they were about to give up and go home, Presley took his guitar and launched into a 1949 blues number, Arthur Crudup's "[[That's All Right]]". Moore recalled, "All of a sudden, Elvis just started singing this song, jumping around and acting the fool, and then Bill picked up his bass, and he started acting the fool, too, and I started playing with them. Sam, I think, had the door to the control booth open ... he stuck his head out and said, 'What are you doing?' And we said, 'We don't know.' 'Well, back up,' he said, 'try to find a place to start, and do it again.'" Phillips quickly began taping; this was the sound he had been looking for.{{sfn|Guralnick|1994|pp=94–97}} Three days later, popular Memphis DJ [[Dewey Phillips]] played "That's All Right" on his ''Red, Hot, and Blue'' show.{{sfn|Ponce de Leon|2007|p=43}} Listeners began phoning in, eager to find out who the singer was. The interest was such that Phillips played the record repeatedly during the last two hours of his show. Interviewing Presley on-air, Phillips asked him what high school he attended in order to clarify his color for the many callers who had assumed he was black.{{sfn|Guralnick|1994|pp=100–1}} During the next few days the trio recorded a [[Bluegrass music|bluegrass]] number, [[Bill Monroe]]'s "[[Blue Moon of Kentucky]]", again in a distinctive style and employing a jury-rigged [[Delay (audio effect)|echo effect]] that Sam Phillips dubbed "slapback". A single was pressed with "That's All Right" on the A side and "Blue Moon of Kentucky" on the reverse.{{sfn|Guralnick|1994|pp=102–4}}
+
+===Selling Presley===
+Within months Phillips saw his label expand significantly owing to the number of Presley records sold. Radio stations and record stores all over the South were eager to play them, and as Presley's profile grew over the next year, Phillips realized Sun was not large enough to break him throughout the United States. In February 1955, Phillips met with [[Colonel Tom Parker]], a man known for his hustling skills as well as his managerial ones. Parker persuaded Phillips that Presley needed a national record label to help him further his career, and after several more months Phillips agreed to sell Presley's contract.<ref name=Victor399/> He told Parker that he would require a $5,000 down-payment by November 15, as an advance on a $35,000 buy out fee. At the time, $35,000 was an unheard of amount of money for a recording artist's contract, especially one who had yet to prove himself on the national stage.<ref name=Victor399/>
+
+Although Presley didn't want to leave Sun, according to Sun engineer Jack Clement, Phillips sold his contract because he needed the money to settle debts and pay off costs still associated with Rufus Thomas's "Bearcat" copyright-infringement suit.<ref name=Victor399/> Phillips, however, insisted that he only offered Presley's contract for $35,000 because he believed it would put off any other record label from purchasing it. Regardless, Presley signed a record contract with [[RCA Victor]] in November 1955, and left Sun. Phillips used some of the money to further advance the careers of his other artists, by now featuring [[Johnny Cash]], [[Carl Perkins]], [[Jerry Lee Lewis]], and [[Roy Orbison]].
+
+===Million Dollar Quartet===
+{{see also|Million Dollar Quartet}}
+{{Refimprove section|date=September 2013}}
+On December 4, 1956 an [[impromptu]] [[jam session]] among [[Elvis Presley]], [[Jerry Lee Lewis]], [[Carl Perkins]], and [[Johnny Cash]] took place at Sun Studio.
+The jam session seems to have happened by pure chance. Perkins, who by this time had already met success with "[[Blue Suede Shoes]]", had come into the studio that day, accompanied by his brothers Clayton and Jay and by drummer [[W.S. Holland]], their aim being to cut some new material, including a revamped version of an old blues song, "[[Matchbox (song)|Matchbox]]". Phillips, who wished to try to fatten this sparse rockabilly instrumentation, had brought in his latest acquisition, singer and piano man extraordinaire [[Jerry Lee Lewis]], still unknown outside Memphis, to play piano on the Perkins session.
+
+Sometime in the early afternoon, Presley dropped in to pay a casual visit accompanied by a girlfriend, Marilyn Evans.<ref>{{Citation | last = George | first = Jason | title = How the Tribune tracked her down | newspaper = Chicago Tribune | pages = Live!, page 4 | date = 2008-11-11 | url = https://pqasb.pqarchiver.com/chicagotribune/doc/420798196.html?FMT=ABS&FMTS=ABS:FT&date=Nov+11%2C+2008&author=George%2C+Jason&pub=Chicago+Tribune&edition=&startpage=&desc=Elvis+mystery+solved! | nopp = true}}</ref>  He was, at the time, the biggest name in show business, having hit the top of the singles charts five times, and topping the album charts twice in the preceding 12-month period. Less than four months earlier, he had appeared on ''[[The Ed Sullivan Show]]'', pulling an unheard-of 83% of the television audience, which was estimated at 55 million, the largest in history up to that time.
+
+After chatting with Philips in the control room, Presley listened to the playback of Perkins’ session, which he pronounced to be good. Then he went out into the studio and some time later the jam session began. At some point during the session, Sun artist [[Johnny Cash]], who had recently enjoyed a few hits on the country charts, popped in. (Cash wrote in his autobiography ''Cash'' that he had been first to arrive at the Sun Studio that day, wanting to listen in on the Perkins recording session.) [[Jack Clement|Cowboy Jack Clement]] was engineering that day and remembers saying to himself "I think I'd be remiss not to record this" and so he did. After running through a number of songs, Elvis and girlfriend Evans slipped out as Jerry Lee pounded away on the piano. Cash claims in ''Cash'' that "no one wanted to follow Jerry Lee, not even Elvis."
+
+During the session Phillips spotted an opportunity for some publicity and called a local newspaper, the ''Memphis Press-Scimitar''. Bob Johnson, the newspaper’s entertainment editor, came over to the studio accompanied by a [[UPI]] representative named Leo Soroca and a photographer.
+
+The following day, an article, written by Johnson about the session, was published in the ''Memphis Press-Scimitar'' under the title "[[Million Dollar Quartet]]". The article contained the now-famous photograph of Presley seated at the piano surrounded by Lewis, Perkins and Cash (the uncropped version of the photo also includes Evans, shown seated atop the piano). This photo proves Cash was there, but the audio doesn't provide substantial proof he joined in on the session.
+
+==Decline==
+For several years after Presley left Sun, Phillips had success with other acts. Sun Studio became known as a place that nurtured talent and then encouraged it to expand with bigger labels. In 1959, Phillips moved Sun Studio to larger premises at 639 Madison Avenue. By the mid 1960s, Phillips had lost interest in recording and had instead branched out into radio. He opened several radio stations, beginning in the late 1950s, and Sun lost its reputation as an innovative recording studio. In 1968, Sun released its last record. In 1969, [[Mercury Records]] label producer [[Shelby Singleton]] &ndash; noted for producing the [[Ray Stevens]]' [[hit single|hit]] "[[Ahab the Arab]]" in 1962, and later Jeannie C. Riley's 1968 hit single "[[Harper Valley PTA]]" on his Nashville-based [[Plantation Records]] label &ndash; purchased the Sun label from Phillips. Singleton merged his operations into Sun International Corporation, which re-released and re-packaged compilations of Sun's early artists in the early 1970s. Singleton moved the firm to [[Nashville, Tennessee|Nashville]], and sold the building to a plumbing company, who eventually sold it to an auto parts store.<ref>Worth/Tamerius, p. 191</ref>
+
+Since, Sun Records Studio has been used as a setting for the film biopics ''[[Walk the Line]]'', ''[[Great Balls of Fire! (film)|Great Balls of Fire]]'', ''[[Mystery Train (film)|Mystery Train]]'' and ''[[Elvis (TV miniseries)|Elvis]]''.
+
+==Re-opening==
+In 1987, ten years after Presley died, Sun Studio at 706 Union Avenue was converted back into a recording studio, and soon became a tourist attraction for Presley fans and music lovers in general. The studio was also used by several well known acts to record, including [[U2]], [[Def Leppard]], John Mellencamp, the Bogus Bros. and Chris Isaak & Silvertone to name a few. In 2003 it was officially recognized as a [[National Historic Landmark]] tourist attraction.<ref>Victor, p. 508</ref>
+
+Sun Studio regularly releases studio session [[podcasts]] on YouTube and on Public Television. Sun Studio have announced that [[PBS]] affiliate stations will be showing a 30-minute series of ''Sun Studio Sessions'' starting in January 2010.
+
+==See also==
+* [[List of museums in Tennessee]]
+* [[List of National Historic Landmarks in Tennessee]]
+* [[National Register of Historic Places listings in Shelby County, Tennessee]]
+
+==Notes==
+{{Reflist|30em}}
+
+==References==
+*{{cite book|last=Victor|first=Adam|title=The Elvis Encyclopedia|year=2008|publisher=Gerald Duckworth & Co Ltd|isbn=978-0-7156-3816-3}}
+*{{cite book|author1=Guralnick, Peter |author2=Jorgensen, Ernst. |title=Elvis Day by Day|year=1999|publisher=Ballantine Books Inc.|isbn=978-0-345-42089-3}}
+*{{cite book|author1=Worth, Fred L. |author2=Tamerius, Steve D. |title=Elvis: His Life from A to Z |year=1992|publisher=Outlet|isbn=978-0-517-06634-8}}
+*{{cite book|last=Guralnick|first=Peter|title=Last Train to Memphis: Rise of Elvis Presley|year=1994|publisher=Abacus|isbn=978-0-349-10651-9 |ref=harv }}
+*Jorgensen, Ernst. ''Elvis Presley—A Life in Music: The Complete Recording Sessions''. St Martin's Press; 1998. {{ISBN|0-312-18572-3}}.
+*Cusic, Don. ''"Singing with the King". Rejoice! The Gospel Music Magazine''. Summer 1988.
+*Miller, James. ''Flowers in the Dustbin: The Rise of Rock and Roll, 1947–1977''. Fireside; 2000. {{ISBN|0-684-86560-2}}.
+*Marcus, Greil. ''Mystery Train: Images of America in Rock 'n' Roll Music''. Revised ed. E.P. Dutton; 1982. {{ISBN|0-525-47708-X}}.
+*{{cite book |last=Ponce de Leon |first=Charles L. |title=Fortunate Son: The Life of Elvis Presley |publisher=Macmillan |year=2007 |isbn=0-8090-1641-9 |ref=harv }}
+
+==External links==
+{{Commons category}}
+*{{Official website}}
+*[http://www.sunstudio.com/sessions Official Sun Studio Sessions Series Page]
+*[http://www.706unionavenue.nl Recording Session History and Studio Information]
+*[http://www.sunrecords.com/ Official site of Sun Records]
+*[http://memphis.about.com/od/memphismusic/tp/sunsessions.htm Great Sun Sessions Albums]
+*[http://memphis.about.com/od/elvispresley/p/sunstudio.htm  Profile of Sun Studio]
+*[http://tps.cr.nps.gov/nhl/detail.cfm?ResourceId=-1610892873&ResourceType=Building National Historic Landmark information]
+
+{{Memphis, Tennessee}}
+{{National Register of Historic Places}}
+
+[[Category:Recording studios in the United States]]
+[[Category:National Historic Landmarks in Tennessee]]
+[[Category:Sun Records|*]]
+[[Category:Albums recorded at Sun Studio| ]]
+[[Category:Commercial buildings on the National Register of Historic Places in Tennessee]]
+[[Category:National Register of Historic Places in Memphis, Tennessee]]
+`
+
+func imageSearch(t *testing.T, page string, exp []string) {
+	found := FindFiles(page)
+	if !reflect.DeepEqual(exp, found) {
+		t.Fatalf("Expected %#v, got %#v", exp, found)
+	}
+}
+
 func TestImageSearch(t *testing.T) {
-	exp := []string{"Tide pools sponge.jpg",
+	expSponge := []string{"Tide pools sponge.jpg",
 		"Aphrocallistes vastus.jpg",
 		"Sponge in papua new guinea.jpg",
 		"Spongia officinalis.jpg",
@@ -845,11 +968,11 @@ func TestImageSearch(t *testing.T) {
 		"SpongesTarponSprings.jpg",
 		"Sponges.JPG",
 	}
-	found := FindFiles(sponge)
 
-	if !reflect.DeepEqual(exp, found) {
-		t.Fatalf("Expected %#v, got %#v", exp, found)
-	}
+	expSunStudio := []string{"Sunoffice2005.jpg"}
+
+	imageSearch(t, sponge, expSponge)
+	imageSearch(t, sunstudio, expSunStudio)
 }
 
 func TestImageUrling(t *testing.T) {

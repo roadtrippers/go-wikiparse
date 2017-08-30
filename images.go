@@ -9,9 +9,11 @@ import (
 )
 
 var fileRE *regexp.Regexp
+var imageRE *regexp.Regexp
 
 func init() {
 	fileRE = regexp.MustCompile(`\[File:([^\|\]]+)`)
+	imageRE = regexp.MustCompile(`\[Image:([^\|\]]+)`)
 }
 
 // FindFiles finds all the File references from within an article
@@ -21,10 +23,16 @@ func init() {
 // out.
 func FindFiles(text string) []string {
 	cleaned := nowikiRE.ReplaceAllString(text, "")
-	matches := fileRE.FindAllStringSubmatch(cleaned, 10000)
+	fileMatches := fileRE.FindAllStringSubmatch(cleaned, 10000)
+	imageMatches := imageRE.FindAllStringSubmatch(cleaned, 10000)
 
 	rv := []string{}
-	for _, x := range matches {
+
+	for _, x := range fileMatches {
+		rv = append(rv, x[1])
+	}
+
+	for _, x := range imageMatches {
 		rv = append(rv, x[1])
 	}
 
