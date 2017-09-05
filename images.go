@@ -10,10 +10,16 @@ import (
 
 var fileRE *regexp.Regexp
 var imageRE *regexp.Regexp
+var galleryRE *regexp.Regexp
+var galleryFileRE *regexp.Regexp
+var galleryImageRE *regexp.Regexp
 
 func init() {
 	fileRE = regexp.MustCompile(`\[File:([^\|\]]+)`)
 	imageRE = regexp.MustCompile(`\[Image:([^\|\]]+)`)
+	galleryRE = regexp.MustCompile(`(?mis)<gallery>.+</gallery>`)
+	galleryFileRE = regexp.MustCompile(`File:([^\|\]]+)`)
+	galleryImageRE = regexp.MustCompile(`Image:([^\|\]]+)`)
 }
 
 // FindFiles finds all the File references from within an article
@@ -25,6 +31,7 @@ func FindFiles(text string) []string {
 	cleaned := nowikiRE.ReplaceAllString(text, "")
 	fileMatches := fileRE.FindAllStringSubmatch(cleaned, 10000)
 	imageMatches := imageRE.FindAllStringSubmatch(cleaned, 10000)
+	galleryMatches := galleryRE.FindAllString(cleaned, 10000)
 
 	rv := []string{}
 
@@ -34,6 +41,22 @@ func FindFiles(text string) []string {
 
 	for _, x := range imageMatches {
 		rv = append(rv, x[1])
+	}
+
+	for _, x := range galleryMatches {
+		// for each gallery, find the images and files after stripping comments
+		noComments := commentRE.ReplaceAllString(x, "")
+
+		galleryFileMatches := galleryFileRE.FindAllStringSubmatch(noComments, 10000)
+		galleryImageMatches := galleryImageRE.FindAllStringSubmatch(noComments, 10000)
+
+		for _, y := range galleryFileMatches {
+			rv = append(rv, y[1])
+		}
+
+		for _, y := range galleryImageMatches {
+			rv = append(rv, y[1])
+		}
 	}
 
 	return rv
